@@ -31,7 +31,7 @@ const skills = [
 
 const SkillsSection = () => (
   <div className="w-full py-12 bg-gray-900 overflow-hidden">
-    <h2 className="text-4xl font-bold mb-12 text-cyan-400 text-center">Technical Arsenal</h2>
+    <h2 className="text-4xl font-bold mb-12 text-cyan-400 text-center">Skills</h2>
     <div className="relative">
       <div className="flex animate-scroll">
         {[...skills, ...skills].map((skill, index) => (
